@@ -1,0 +1,5 @@
+package com.crnt.fitness_club.repository;
+
+public class UserRegistrationRepository {
+
+}

@@ -1,0 +1,5 @@
+package com.crnt.fitness_club.bean;
+
+public class UserRegistrationBean {
+
+}

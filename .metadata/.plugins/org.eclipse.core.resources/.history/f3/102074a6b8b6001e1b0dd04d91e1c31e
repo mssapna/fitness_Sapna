@@ -1,0 +1,9 @@
+package com.crnt.fitness_club.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.crnt.fitness_club.bean.UserRegistrationBean;
+
+public interface UserRegistrationRepository extends JpaRepository<UserRegistrationBean, Integer>{
+
+}

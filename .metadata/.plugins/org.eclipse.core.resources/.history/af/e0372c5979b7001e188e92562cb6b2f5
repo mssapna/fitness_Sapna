@@ -1,0 +1,26 @@
+package com.crnt.fitness_club.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.crnt.fitness_club.bean.UserProgressBean;
+
+
+
+@Service
+public interface UserProgressService {
+
+public	UserProgressBean saveNewUser(UserProgressBean bean);
+
+public UserProgressBean getById(Integer userId);
+
+public List<UserProgressBean> getAllStudent();
+
+public UserProgressBean update(UserProgressBean bean);
+
+
+
+public String deleteById(Integer userId);
+
+}

@@ -1,0 +1,9 @@
+package com.crnt.fitness_club.service;
+
+import com.crnt.fitness_club.bean.UserRegistrationBean;
+
+public interface UserRegistrationService {
+
+	UserRegistrationBean saveNewUser(UserRegistrationBean bean);
+
+}

@@ -1,0 +1,5 @@
+package com.crnt.fitness_club.controller;
+
+public class UserRegistrationController {
+
+}

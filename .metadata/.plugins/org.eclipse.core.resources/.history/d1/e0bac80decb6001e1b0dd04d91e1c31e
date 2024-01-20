@@ -1,0 +1,14 @@
+package com.crnt.fitness_club.service;
+
+import org.springframework.stereotype.Service;
+
+import com.crnt.fitness_club.bean.UserRegistrationBean;
+
+@Service
+public interface UserRegistrationService {
+
+public	UserRegistrationBean saveNewUser(UserRegistrationBean bean);
+
+public UserRegistrationBean getById(Integer userId);
+
+}

@@ -1,0 +1,9 @@
+1705685622641	Rename package 'com.crnt.FitnessClub.bean'
+1705685646123	Rename package 'com.crnt.FitnessClub'
+1705685667364	Delete element
+1705685771331	Rename type 'UserRegistrationBean'
+1705743762110	Rename type 'UserRegistrationController'
+1705743771684	Delete element
+1705743844181	Rename type 'UserRegistrationRepository'
+1705743914980	Rename type 'UserRegistrationService'
+1705744018884	Rename type 'UserRegistrationServiceImpl'

@@ -1,0 +1,20 @@
+package com.crnt.fitness_club.service.serviceImpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.crnt.fitness_club.bean.UserRegistrationBean;
+import com.crnt.fitness_club.repository.UserRegistrationRepository;
+import com.crnt.fitness_club.service.UserRegistrationService;
+
+public class UserRegistrationServiceImpl implements UserRegistrationService {
+	
+	@Autowired
+	UserRegistrationRepository repository;
+
+	@Override
+	public UserRegistrationBean saveNewUser(UserRegistrationBean bean) {
+		// TODO Auto-generated method stub
+		return repository.save(bean);
+	}
+
+}

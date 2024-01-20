@@ -1,0 +1,26 @@
+package com.crnt.fitness_club.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.crnt.fitness_club.bean.UserRegistrationBean;
+import com.crnt.fitness_club.service.UserRegistrationService;
+
+@RestController
+@RequestMapping("/user")
+public class UserRegistrationController {
+
+	@Autowired
+	UserRegistrationService service;
+	
+	@PostMapping("/saveNewUser")
+	public UserRegistrationBean saveNewUser(@RequestBody UserRegistrationBean bean)
+	{
+		return service.saveNewUser(bean);
+		
+	}
+	
+}

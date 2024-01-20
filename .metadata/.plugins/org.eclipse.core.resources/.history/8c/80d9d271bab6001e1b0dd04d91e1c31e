@@ -1,0 +1,5 @@
+package com.crnt.fitness_club.service.serviceImpl;
+
+public class UserRegistrationServiceImpl {
+
+}
